@@ -17,8 +17,8 @@ public class Item {
         return nomeProduto;
     }
 
-    public void setNome(String nomeProduto) {
-        this.nomeProduto = nomeProduto;
+    public void setNomes(ArrayList<String> novosNomes) {
+        this.nomes = new ArrayList<>();
     }
 
     public int getId() {
@@ -46,7 +46,11 @@ public class Item {
     }
 
     public void cadastrarNovoItem(String nomeProduto, int id) {
-        this.nomes.add(nomeProduto);
+        if (!this.nomes.contains(nomeProduto)) {
+            this.nomes.add(nomeProduto);
+        } else {
+            System.out.println("Produto já cadastrado!");
+        }
     }
 
     public void buscarItem(String nomeProduto, int id) {
