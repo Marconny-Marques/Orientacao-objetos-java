@@ -1,4 +1,4 @@
-classDiagram
+    classDiagram
     class Produto {
         +String nome
         +String descricao
