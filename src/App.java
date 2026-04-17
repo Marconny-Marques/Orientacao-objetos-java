@@ -7,13 +7,13 @@ public class App {
         
         do { 
             System.out.println("\n--- Menu ---");
-            System.out.println("Deseja cadastrar novos itens? 1-");
-            System.out.println("Deseja listar todos os itens cadastrados? 2-");
-            System.out.println("Deseja buscar um item pelo nome? 3-");
-            System.out.println("Deseja atualizar a quantidade em estoque? 4-");
-            System.out.println("Deseja calcular o valor total armazenado em estoque? 5-");
-            System.out.println("Deseja exibir os itens com estoque zerado? 6-");
-            System.out.println("Deseja exibir os itens ordenados por preço? 7-"); 
+            System.out.println("1- Deseja cadastrar novos itens?");
+            System.out.println("2- Deseja listar todos os itens cadastrados?");
+            System.out.println("3- Deseja buscar um item pelo nome?");
+            System.out.println("4- Deseja atualizar a quantidade em estoque?");
+            System.out.println("5- Deseja calcular o valor total armazenado em estoque?");
+            System.out.println("6- Deseja exibir os itens com estoque zerado?");
+            System.out.println("7- Deseja exibir os itens ordenados por preço?"); 
 
             opcao = scanner.nextInt();
 
